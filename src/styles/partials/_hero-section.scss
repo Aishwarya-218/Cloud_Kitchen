@@ -1,0 +1,18 @@
+.section.hero
+{
+    .typography
+    {
+        padding-right: 1em;
+    }
+    .gallery
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap : 1vw;
+    }
+    .custom-image
+    {
+        border-radius: 3px;
+        overflow: hidden;
+    }
+}
